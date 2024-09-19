@@ -5,7 +5,7 @@ import ejercicio.Student.Student;
 public class Main {
 	public static void main(String[] args) {
 		
-		// Crear instancias de Student
+
         Student student1 = new Student("Juan Luis", "Perez Gonzalez", 12345, 85, 2023);
         Student student2 = new Student("Ana Isabel", "Gomez Garcia", 67890, 55, 2023);
         Student student3 = new Student("Luis Pedro", "Rodriguez Hernandez", 11121, 75, 2023);

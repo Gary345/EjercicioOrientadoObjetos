@@ -35,11 +35,11 @@ public class Courses {
 		   
 		   public int bestGrade(){
 		       
-			   Iterator<Student> iterator = studentsEnrolled.iterator();// iterador
+			   Iterator<Student> iterator = studentsEnrolled.iterator();// 
 				int mayor= 0;
 				while(iterator.hasNext()) {
 					Student currentStudent = iterator.next();
-					int currentGrade = currentStudent.getGrade(); // Si 'grade' es privado
+					int currentGrade = currentStudent.getGrade(); // 
 					if (currentGrade > mayor) {
 						 mayor = currentGrade;
 					}				
